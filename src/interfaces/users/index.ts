@@ -12,6 +12,7 @@ export interface IUser {
     isAdm: boolean
     createdAt: Date
     updatedAt: Date
+    isActive?: boolean
 }
 
 
