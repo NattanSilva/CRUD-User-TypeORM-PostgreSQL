@@ -10,7 +10,7 @@ import {
 } from "typeorm";
 
 @Entity("users")
-class user {
+class User {
   @Column()
   name: string;
 
@@ -42,4 +42,4 @@ class user {
   }
 }
 
-export { user };
+export { User };
